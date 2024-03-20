@@ -1,0 +1,140 @@
+\documentclass[fr,margin=0.3in]{cv}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[french]{babel}
+\usepackage{amssymb}
+
+\AuthorName{John}{Doe}
+\PhoneNumber{my phone number}
+\Email{my email}
+\Address{my address}
+\LinkedIn{https://linkedin.com}{my linkedin}
+\Github{https://github.com}{my github}
+\Medium{https://medium.com}{my medium}
+
+\PicPath{profilepic.png}
+\Tagline{\multilang{Ceci est ma phrase d'accroche}{This is my tagline.}}
+
+\begin{document}
+
+\maketitle
+
+%----------------------------------------------------------------------------------------
+%	Skills
+%----------------------------------------------------------------------------------------
+
+\section{\multilang{Compétences}{Skills}}
+
+\noindent
+\begin{tabularx}{\textwidth}{>{\bfseries}r X}
+\multilang{Compétence un}{Skill one}		& Foo, Bar, Baz\\
+\multilang{Compétence deux}{Skill two}		& Foo, Bar, Baz\\
+\multilang{Compétence trois}{Skill three}	& Foo, Bar, Baz\\
+\end{tabularx}
+
+%----------------------------------------------------------------------------------------
+%	Professional Experience
+%----------------------------------------------------------------------------------------
+
+\vfill
+\section{\multilang{Expériences professionnelles}{Professional Experience}}
+
+\begin{experience}[start={\multilang{Janv.}{Jan.} 2022},end={\multilang{Déc.}{Dec.} 2023},city={Paris, France}]
+	{\multilang{Mon poste}{My job}}
+	{\emph{My company}}
+	\begin{itemize}
+		\item \multilang{Mission un}{Mission one}
+		\item \multilang{Mission deux}{Mission one}
+			\begin{itemulticols}[label={-}]
+				\item \multilang{Tâche une}{Task one} \bkt{Technology1}
+				\item \multilang{Tâche deux}{Task two} \bkt{Technology2}
+			\end{itemulticols}
+		\item \multilang{Mission trois}{Mission three}
+			\begin{itemize}[label={-}]
+				\item \multilang{Tâche une}{Task one} \bkt{Technology3}
+				\item \multilang{Tâche deux}{Task two} \bkt{Technology4}
+				\item \multilang{Tâche trois}{Task three} \bkt{Technology5}
+			\end{itemize}
+	\end{itemize}
+\end{experience}
+
+\begin{experience}[start={\multilang{Janv.}{Jan.} 2020},end={\multilang{Déc.}{Dec.} 2021},city={Paris, France}]
+	{\multilang{Mon poste}{My job}}
+	{\emph{My company}}
+	\begin{itemize}
+		\item \multilang{Mission un}{Mission one}
+		\item \multilang{Mission deux}{Mission one}
+			\begin{itemulticols}[label={-}]
+				\item \multilang{Tâche une}{Task one} \bkt{Technology1}
+				\item \multilang{Tâche deux}{Task two} \bkt{Technology2}
+			\end{itemulticols}
+		\item \multilang{Mission trois}{Mission three}
+			\begin{itemize}[label={-}]
+				\item \multilang{Tâche une}{Task one} \bkt{Technology3}
+				\item \multilang{Tâche deux}{Task two} \bkt{Technology4}
+				\item \multilang{Tâche trois}{Task three} \bkt{Technology5}
+			\end{itemize}
+	\end{itemize}
+\end{experience}
+
+\begin{experience}[start={\multilang{Janv.}{Jan.} 2018},end={\multilang{Déc.}{Dec.} 2019},city={Paris, France}]
+	{\multilang{Mon poste}{My job}}
+	{\emph{My company}}
+	\begin{itemize}
+		\item \multilang{Mission un}{Mission one}
+		\item \multilang{Mission deux}{Mission one}
+			\begin{itemulticols}[label={-}]
+				\item \multilang{Tâche une}{Task one} \bkt{Technology1}
+				\item \multilang{Tâche deux}{Task two} \bkt{Technology2}
+			\end{itemulticols}
+		\item \multilang{Mission trois}{Mission three}
+			\begin{itemize}[label={-}]
+				\item \multilang{Tâche une}{Task one} \bkt{Technology3}
+				\item \multilang{Tâche deux}{Task two} \bkt{Technology4}
+				\item \multilang{Tâche trois}{Task three} \bkt{Technology5}
+			\end{itemize}
+	\end{itemize}
+\end{experience}
+
+%----------------------------------------------------------------------------------------
+%	Education
+%----------------------------------------------------------------------------------------
+
+\vfill
+\section{\multilang{Formation}{Education}}
+
+\begin{experience}[start=2014,end=2017,city={Paris, France}]{%
+	\multilang{Diplôme}{Degree}}
+	{My school}
+	Lorem ipsum
+\end{experience}
+
+\begin{experience}[start=2012,end=2014,city={Paris, France}]{%
+	\multilang{Diplôme}{Degree}}
+	{My school}
+	Lorem ipsum
+\end{experience}
+
+%----------------------------------------------------------------------------------------
+%	Languages
+%----------------------------------------------------------------------------------------
+
+\vfill
+\section*{\multilang{Langues}{Languages}}
+
+\textbf{\multilang{Français}{French}:} \multilang{Langue maternelle}{Native}
+\hspace{1in}
+\textbf{\multilang{Anglais}{English}:} \multilang{Compétence professionnelle}{Working proficiency}
+
+%----------------------------------------------------------------------------------------
+%	Hobbies
+%----------------------------------------------------------------------------------------
+
+\vfill
+\section*{\multilang{Centres d'intérêt}{Hobbies}}
+
+\multilang{Activité un}{Hobby one}, \multilang{Activité deux}{Hobby two}
+
+\vfill
+
+\end{document}
