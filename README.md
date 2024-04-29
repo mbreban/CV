@@ -1,5 +1,10 @@
 # cv
 
+## Samples
+
+* [Joe Doe - EN](./samples/example-john-doe-en.pdf)
+* [Joe Doe - FR](./samples/example-john-doe-fr.pdf)
+
 ## Getting Started
 
 ```sh
